@@ -1,0 +1,399 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    color: blue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0px 0px 2px;
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    transition: all 0.4;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#siteicon{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+    font-size: 30px;
+    align-items: center;
+}
+.material-symbols-outlined{
+    font-size: 30px;
+    text-align: center;
+}
+#icon1{
+    font-size: 70px;
+    padding: 0px 20px;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    
+}
+#kalota{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 0px 15px;
+}
+#kalota i{
+    font-size: 40px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+  
+   
+    
+}
+li{
+    padding: 25px;
+    display: flex;
+    font-size: ;
+}
+
+
+/*first div*/
+#firstsec{
+    height: 100%;
+    
+}
+#temxt{
+    height: 300px;
+        font-size: 45px;
+        width: 1000px;;
+    margin: 60px 40px;
+}
+#maintext h1{
+    color: blue;
+}
+
+.bumton{
+    padding: 13px 80px;
+    border-radius: 25px;
+    font-size: 17px;
+    background-color:white;
+    color: blue;
+    border-color: blue;
+    transition: all 0.4s;
+}
+.bumton:hover{
+    color: white;
+    background-color: blue;
+}
+
+/* 2 boxes */
+#both{
+    display: flex;
+    
+}
+.box1{
+    width: 450px;
+    height: 250px;
+    margin: 0px 30px 30px 40px;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+.box1 button{
+    margin-top: 100px;
+}
+.box1 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 20px;
+    width: 400px;
+}
+.box1 h2{
+ padding: 15px 0px 10px 30px;
+ color: blue;
+}
+.box1 button{
+    padding: 9px 200px;
+  
+   margin: 53px 0px 0px 0px;
+   font-size: 13.5px;
+   background-color:white;
+   color: blue;
+   border: none;
+   transition: all 0.4s;
+   border-radius: 0px 0px 24px 24px;
+}
+.box1 button:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 0px 0px 20px 20px;
+    border-color: blue;
+}
+
+/* 3rd section with 2 parts */
+/* first part violetish colour */
+#perpul{
+    background-color: rgb(183, 183, 241);
+    color: blue;
+    height: 100%;
+}
+#para h1{
+    padding: 140px 0px 80px 160px;
+    font-size: 70px;
+}
+#para h3{
+    padding: 0px 0px 10px 160px;
+    font-size:30px ;
+}
+#para p{
+    padding: 0px 0px 80px 170px;
+    font-size: 23px;
+    width: 900px;
+}
+#para button{
+    background-color: rgb(183, 183, 241);
+    color: blue;
+    margin: 0px 0px 80px 160px;
+}
+#para button:hover{
+    background-color: blue;
+    color: white;
+}
+
+/* second part of the third section blue part */
+ #bluee{
+    background-color: blue;
+    
+ }
+ #parra h1{
+    font-size: 80px;
+    color: white;
+
+padding: 270px 0px 50px 200px;
+
+ }
+ #parra p{
+    font-size: 22px;
+    width: 750px;
+    padding: 0px 0px 40px 200px;
+    color: white;
+ }
+ #parra button{
+    background-color: blue;
+    color: white;
+    border-color: white;
+    margin: 20px 0px 0px 200px;
+    transition: all 0.4s;
+ }
+ #parra button:hover{
+    background-color: rgb(216, 242, 177);
+    color: blue;
+ }
+ 
+ /* four containers in this section */
+ #container1{
+    display: flex;
+    margin: 0px 0px 0px 350px;
+ }
+ #container2{
+    display: flex;
+    margin: 0px 0px 0px 150px;
+ }
+
+ .element{
+    width: 450px;
+    height: 250px;
+    margin: 50px 30px 30px 0px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.element p{
+    margin: 15px 30px 0px 30px;
+    font-size: 20px;
+    width: 400px;
+    color: white;
+}
+.element h1{
+margin: 15px 0px 0px 20px;
+ color: white;
+}
+.element i{
+    color: rgb(216, 242, 177);
+    padding: 30px 0px 0px 25px;
+}
+
+/* the starting of 4 containers  */
+#logos h1{
+    font-size: 80px;
+    padding: 200px 0px 0px 400px;
+    color: white;
+}
+
+/* containers with images */
+
+#imgcontain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  gap: 100px;
+  margin-top: 150px;
+  padding-bottom: 100px;
+    
+}
+
+
+
+.imgss i{
+    color: rgb(216, 242, 177);
+    font-size: 200px;
+}
+.imgss h3{
+    color: white;
+    font-size: 40px;
+}
+.imgss p{
+    font-size: 23px;
+    color: white;
+}
+
+/* fotter it is */
+footer{
+    height: 900px;
+    background-color: blue;
+  }
+  footer h1{
+    margin-left: 200px;
+    font-size: 75px;
+    padding: 50px 0px 90px 0px;
+  }
+  footer h2{
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .last{
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 200px;
+    gap: 200px;
+ 
+  }
+  .f{
+    /* border: 1px solid black; */
+    height: 600px;
+    width: 400px;
+    position: relative;
+    
+    }
+      .fInner1{
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+      }
+      .fInner1 p{
+        width: 220px;
+        font-weight: 100;
+      }
+      .fInner2{
+       
+        margin-top: 40px;
+        
+      }
+      .fInner2 li a{
+        list-style: none;
+        font-size: 20px;
+        display: flex;
+        text-decoration: none;
+      }
+  .s{
+    /* border: 1px solid black; */
+    height: 600px;
+    width: 600px;
+
+  }
+  .form1{
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    margin-top: 50px;
+    font-weight: 100;
+
+  }
+  .form1 input{
+    border-radius: 20px;
+    padding: 10px 15px;
+    color:  rgb(250, 253, 242);
+    font-size: 16px;
+    background-color: blue;
+    border: 1px solid   rgb(250, 253, 242);
+    margin-top: 15px;
+    transition: 0.2s all ease-in-out;
+  }
+  ::placeholder{
+    border: none;
+    text-decoration: none;
+  }
+  .form1 input:hover{
+    /* border: 3px solid rgb(250, 253, 242) ; */
+    border:1px solid rgba(165, 163, 241,1);
+  }
+  footer .TextA p{
+   margin-top: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    word-spacing: 2px;
+  }
+  .TextA textarea{
+    border-radius: 20px;
+    width: 500px;
+    border: 1px solid  rgb(250, 253, 242);
+    background-color: blue;
+    color:  rgb(250, 253, 242);
+    font-size: 20px;
+    padding: 20px 20px;
+    margin: 20px 0px;
+  }
+  .TestA textarea:hover{
+   
+    border:1px solid rgba(165, 163, 241,1);
+
+  }
+  footer .lastBTN button{
+    padding: 12px 80px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border: 1px solid  rgb(250, 253, 242);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  .lastBTN button:hover{
+    background-color:  rgb(250, 253, 242);
+    color: blue;
+  }
+  #copyright{
+    position: absolute;
+    left: 0%;
+   cursor: pointer;
+    top: 100%;
+  }
